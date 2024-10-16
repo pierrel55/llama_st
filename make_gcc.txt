@@ -1,0 +1,60 @@
+# makefile to build llama_st (llama_st.exe) using GCC for windows (w64devkit used)
+# usage: make -f make_gcc.txt all
+# llama2 test example:
+#  - edit run_json/run_llama2.json (using utf8 editor, ex programmer notepad)
+#    - define model_path to your local path where model .safetensors files are loaded
+#    - define model_num_safetensors to num of .safetensors files used by model
+#    - define run_mode to 0 or 1 (generate or chat mode)
+# run command line: llama_st run_json/run_llama2.json
+
+DEF =  -D_GCC_BLD         # add some function ptr cast to avoid warning
+DEF += -DPACK_KV_CACHE    # transformer: enable kv cache compact option
+DEF += -DUSE_THRD_BATCH   # transformer: use threads more optimized code (less readable but increase speed)
+DEF += -DUSE_SA_SIMD      # transformer: use simd code for self attention
+# DEF += -DMM_USE_FMA       # use FMA (cpu support not checked, no speed gain observed (or even loss ?) if used)
+# DEF += -DCHECK_ALLOC      # check memory allocation/deallocations (debug)
+# DEF += -D_DEBUG           # include some debug check code (slower, new models test in case of errors)
+# DEF += -DCHECK_EXIT       # include program exit check code
+
+INC = -Isrc/utils -Isrc -Isrc/matmul -Isrc/model/load -Isrc/model
+
+#matmul
+SRC  += src/matmul/matmul.c
+SRC  += src/matmul/matmul_f8.c
+SRC  += src/matmul/matmul_f12.c
+SRC  += src/matmul/matmul_f16.c
+SRC  += src/matmul/matmul_bf16.c
+SRC  += src/matmul/matmul_sf16.c
+SRC  += src/matmul/matmul_f32.c
+SRC  += src/matmul/tr_opt_simd.c
+
+#load
+SRC  += src/model/load/json.c
+SRC  += src/model/load/load_tokenizer.c
+SRC  += src/model/load/load_transformer.c
+
+#model
+SRC  += src/model/model.c
+SRC  += src/model/omp_numa.c
+SRC  += src/model/sampler.c
+SRC  += src/model/tokenizer.c
+SRC  += src/model/transformer.c
+SRC  += src/model/kv_cache.c
+
+#utils
+SRC  += src/utils/l_util.c
+SRC  += src/utils/mem_alloc.c
+SRC  += src/utils/numa_w.c
+SRC  += src/utils/term_utf8_w.c
+SRC  += src/utils/time_ev.c
+SRC  += src/utils/utf8.c
+
+#src
+SRC  += src/chat.c
+SRC  += src/generate.c
+SRC  += src/main.c
+
+COMP = gcc -fopenmp -m64 -march=native -O3 $(DEF) $(INC)
+
+all: 
+	$(COMP) $(SRC) -o llama_st.exe

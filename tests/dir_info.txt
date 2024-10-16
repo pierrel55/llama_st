@@ -1,0 +1,7 @@
+Contain speed test with and without data conversion and hyperthreading on/off using various models.
+
+1_node:
+tested with xeon e5 2680 v4 (14c 2400Mhz), 64Gb ram ddr4 2400 4ch
+
+2_nodes:
+tested with 2 * xeon e5 2650 v4 (12c 2200Mhz), 128Gb ram ddr4 2400 (64Gb/socket)

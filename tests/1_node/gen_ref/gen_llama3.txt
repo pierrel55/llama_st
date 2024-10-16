@@ -1,0 +1,53 @@
+read file run_json/run_llama3.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: D:/llama3_st/8b-instruct/tokenizer.json
+load transformer..
+read model config in: D:/llama3_st/8b-instruct/config.json
+torch float type: bf16
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: D:/llama3_st/8b-instruct/model-00001-of-00004.safetensors
+load: D:/llama3_st/8b-instruct/model-00002-of-00004.safetensors
+load: D:/llama3_st/8b-instruct/model-00003-of-00004.safetensors
+load: D:/llama3_st/8b-instruct/model-00004-of-00004.safetensors
+sampler config:
+  temperature      : 1.00
+  topp             : 0.65
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : false
+  repeat_penalty   : 0.00
+  repeat_penalty_n : 0
+  eos_amp          : 0.50
+  eos_amp_n        : 250
+  rand seed        : 1234
+Generate: max 8192 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is that the Earth's axis is tilted
+at an angle of about 23.5 degrees relative to its orbit around the Sun. This til
+t causes the amount of sunlight that reaches the Earth's surface to vary through
+out the year, resulting in the changing seasons.
+
+During the summer months, the Northern Hemisphere is tilted towards the Sun, rec
+eiving more direct sunlight and experiencing longer days. This results in warmer
+ temperatures and longer days, making it the warmest season.
+
+In contrast, during the winter months, the Northern Hemisphere is tilted away fr
+om the Sun, receiving less direct sunlight and experiencing shorter days. This r
+esults in colder temperatures and shorter days, making it the coldest season.
+
+The same principle applies to the Southern Hemisphere, where the seasons are rev
+ersed due to its opposite tilt. When it's summer in the Northern Hemisphere, it'
+s winter in the Southern Hemisphere, and vice versa.
+
+The tilt of the Earth's axis also affects the distribution of sunlight throughou
+t the year, resulting in the changing lengths of daylight and nighttime. This, i
+n turn, influences the climate and weather patterns, making the seasons distinct
+ and unique.
+
+In summary, the Earth's tilt is the primary reason for the existence of seasons,
+ and it's what gives us the varying temperatures, daylight hours, and weather pa
+tterns that we experience throughout the year.
+total time: 59.51s for 268 tokens, tok/s: 4.50
+Press any key to continue . . .

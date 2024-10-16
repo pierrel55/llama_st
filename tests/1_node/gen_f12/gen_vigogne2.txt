@@ -1,0 +1,96 @@
+read file run_json/run_vigogne2.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: E:/vigogne/vigogne-2-13b-instruct/tokenizer.json
+load transformer..
+read model config in: E:/vigogne/vigogne-2-13b-instruct/config.json
+rope_theta undefined, expect rotary_emb.inv_freq contained in .safetensors
+torch float type: fp16
+rope_theta user set to 10000.00
+model weights converted to float12.
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: E:/vigogne/vigogne-2-13b-instruct/model-00001-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00002-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00003-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00004-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00005-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00006-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00007-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00008-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00009-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00010-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00011-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00012-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00013-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00014-of-00014.safetensors
+sampler config:
+  temperature      : 0.85
+  topp             : 0.70
+  topk             : 25
+  topp_minp        : 0.05
+  topp_eos         : false
+  repeat_penalty   : 0.00
+  repeat_penalty_n : 50
+  eos_amp          : 0.00
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 4096 tokens..
+- Press 'esc' key to break generation.
+L'explication de l'existence de saisons est une question qui a fasciné les philo
+sophes depuis l'Antiquité. Le terme de « saison » vient du latin « seasone » qui
+ signifie « saison de la vie ».
+
+Pour les articles homonymes, voir Saison (homonymie).
+
+## Explications scientifiques
+
+La cause principale de l'alternance des saisons est l'inclinaison de l'axe de ro
+tation de la Terre par rapport à son orbite autour du Soleil.
+
+L'axe de la Terre est incliné de 23,44 degrés par rapport à l'horizon, ce qui si
+gnifie que pendant une partie de l'année, le Soleil est plus près de l'équateur
+terrestre et pendant une autre partie de l'année, il est plus près des pôles.
+
+Cette inclinaison de l'axe de la Terre entraîne des changements de température e
+t de luminosité sur la surface de la Terre, créant ainsi les saisons.
+
+En automne et en hiver, le Soleil est plus proche des pôles, ce qui signifie que
+ les régions polaires reçoivent moins de lumière solaire et que les régions équa
+toriales reçoivent plus de lumière solaire.
+
+En été et en printemps, le Soleil est plus proche de l'équateur terrestre, ce qu
+i signifie que les régions polaires reçoivent plus de lumière solaire et que les
+ régions équatoriales reçoivent moins de lumière solaire.
+
+Ces changements de luminosité solaire ont des effets sur la température de l'air
+ et de l'eau, créant ainsi les saisons.
+
+En plus de l'inclinaison de l'axe de la Terre, d'autres facteurs tels que la rot
+ation de la Terre sur son axe et l'orbite de la Terre autour du Soleil contribue
+nt également aux changements saisonniers.
+
+## Explications philosophiques
+
+Les philosophes ont également cherché à expliquer l'existence des saisons en ter
+mes de cycles naturels et de changements de l'environnement.
+
+Dans la philosophie grecque, la théorie de l'équilibre des humeurs a été proposé
+e pour expliquer les saisons. Cette théorie postulait que les saisons étaient ca
+usées par un équilibre entre les quatre humeurs corporelles (sang, bile, phlegme
+ et mucus) qui étaient considérées comme étant en constante interaction avec l'e
+nvironnement.
+
+Dans la philosophie chinoise, la théorie des cinq éléments (métal, bois, feu, ea
+u et terre) a été proposée pour expliquer les saisons. Cette théorie postulait q
+ue les saisons étaient causées par l'interaction des cinq éléments et que chaque
+ saison était associée à un élément particulier.
+
+Dans la philosophie occidentale, les saisons ont été associées à des concepts te
+ls que la croissance, la décroissance, la mort et la renaissance.
+
+En fin de compte, les explications scientifiques et philosophiques des saisons s
+ont toutes basées sur l'observation et la compréhension de la nature de l'enviro
+nnement et de ses cycles naturels.
+total time: 247.85s for 781 tokens, tok/s: 3.15
+Press any key to continue . . .

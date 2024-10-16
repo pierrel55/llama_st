@@ -1,0 +1,42 @@
+read file run_json/run_tinyllama.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: E:/tinyllama/Tiny-Llama-1.1B-Chat-v1.0/tokenizer.json
+load transformer..
+read model config in: E:/tinyllama/Tiny-Llama-1.1B-Chat-v1.0/config.json
+torch float type: bf16
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: E:/tinyllama/Tiny-Llama-1.1B-Chat-v1.0/model.safetensors
+sampler config:
+  temperature      : 0.60
+  topp             : 0.65
+  topk             : 25
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 2048 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is a complex and multifaceted proce
+ss that involves the Earth's orbit around the Sun, the Earth's rotation around t
+he Sun, and the Earth's position relative to the Sun's position in space. The pr
+ocess of seasons is influenced by a variety of factors, including the Earth's ti
+lt on its axis, the Earth's distance from the Sun, and the Earth's rotation. The
+ Earth's tilt on its axis causes the Earth to rotate around its axis at a differ
+ent rate than the Earth's orbit around the Sun. This causes the seasons to vary
+in intensity and duration. The Earth's distance from the Sun also affects the se
+asons. As the Earth moves closer to the Sun, it experiences longer days and shor
+ter nights, which causes the Earth's tilt on its axis to change. This causes the
+ Earth to experience longer and shorter seasons. The Earth's rotation also plays
+ a role in the seasons. The Earth rotates around its axis at a rate of 23.5 degr
+ees per day, which causes the seasons to vary in intensity and duration. The Ear
+th's rotation also affects the amount of sunlight that reaches the Earth's surfa
+ce. The Earth's rotation causes the Earth's axis to tilt towards the Sun, which
+causes the Earth to receive more sunlight during the summer months and less sunl
+ight during the winter months.
+total time: 9.55s for 297 tokens, tok/s: 31.11
+Press any key to continue . . .

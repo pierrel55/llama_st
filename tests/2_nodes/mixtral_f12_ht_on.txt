@@ -1,0 +1,567 @@
+
+C:\dev_c\llama_st>llama_stw run_json/run_mixtral.json
+read file run_json/run_mixtral.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/tokenizer.json
+load transformer..
+read model config in: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/config.json
+torch float type: bf16
+numa node(s): 2, mp node: 1, num logical/physical procs.: 48/24 (HT on)
+processor(s) core(s) used: 24 in 2 node(s).
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00001-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00002-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00003-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00004-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00005-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00006-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00007-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00008-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00009-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00010-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00011-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00012-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00013-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00014-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00015-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00016-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00017-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00018-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00019-of-00019.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.00
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is not as simple as you might think
+. The tilt of the Earth's axis and its orbit around the sun combine to create th
+e seasons, but the tilt itself is the most important factor.
+
+The Earth's axis is tilted at an angle of 23.5 degrees relative to the plane of
+its orbit around the sun. This tilt means that, as the Earth orbits the sun, dif
+ferent parts of the planet are tilted towards or away from the sun. When the Nor
+th Pole is tilted towards the sun, the Northern Hemisphere experiences summer, a
+nd when it is tilted away, the Northern Hemisphere experiences winter. The oppos
+ite is true for the Southern Hemisphere.
+
+The Earth's orbit around the sun is not a perfect circle, but rather an ellipse.
+ This means that the Earth is sometimes closer to the sun and sometimes farther
+away. However, the difference in distance between the Earth's closest and farthe
+st points from the sun is not enough to significantly affect the seasons. The ti
+lt of the Earth's axis is the main factor that determines the seasons.
+
+In summary, the tilt of the Earth's axis is the primary factor that causes the s
+easons. The Earth's orbit around the sun also plays a role, but it is less impor
+tant than the tilt.
+total time: 83.26s for 282 tokens, tok/s: 3.39
+
+C:\dev_c\llama_st>llama_stw run_json/run_mixtral.json
+read file run_json/run_mixtral.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/tokenizer.json
+load transformer..
+read model config in: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/config.json
+torch float type: bf16
+numa node(s): 2, mp node: 1, num logical/physical procs.: 48/24 (HT on)
+processor(s) core(s) used: 22 in 2 node(s).
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00001-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00002-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00003-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00004-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00005-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00006-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00007-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00008-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00009-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00010-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00011-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00012-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00013-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00014-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00015-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00016-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00017-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00018-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00019-of-00019.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.00
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is not as simple as you might think
+. The tilt of the Earth's axis and its orbit around the sun combine to create th
+e seasons, but the tilt itself is the most important factor.
+
+The Earth's axis is tilted at an angle of 23.5 degrees relative to the plane of
+its orbit around the sun. This tilt means that, as the Earth orbits the sun, dif
+ferent parts of the planet are tilted towards or away from the sun. When the Nor
+th Pole is tilted towards the sun, the Northern Hemisphere experiences summer, a
+nd when it is tilted away, the Northern Hemisphere experiences winter. The oppos
+ite is true for the Southern Hemisphere.
+
+The Earth's orbit around the sun is not a perfect circle, but rather an ellipse.
+ This means that the Earth is sometimes closer to the sun and sometimes farther
+away. However, the difference in distance between the Earth's closest and farthe
+st points from the sun is not enough to significantly affect the seasons. The ti
+lt of the Earth's axis is the main factor that determines the seasons.
+
+In summary, the tilt of the Earth's axis is the primary factor that causes the s
+easons. The Earth's orbit around the sun also plays a role, but it is less impor
+tant than the tilt.
+total time: 98.09s for 282 tokens, tok/s: 2.87
+
+C:\dev_c\llama_st>llama_stw run_json/run_mixtral.json
+read file run_json/run_mixtral.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/tokenizer.json
+load transformer..
+read model config in: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/config.json
+torch float type: bf16
+model weights converted to float12.
+numa node(s): 2, mp node: 0, num logical/physical procs.: 48/24 (HT on)
+processor(s) core(s) used: 24 in 2 node(s).
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00001-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00002-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00003-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00004-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00005-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00006-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00007-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00008-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00009-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00010-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00011-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00012-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00013-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00014-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00015-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00016-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00017-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00018-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00019-of-00019.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.00
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is not as simple as you might think
+. The tilt of the Earth's axis and its orbit around the sun combine to create th
+e seasons, but the tilt itself is the most important factor.
+
+The Earth's axis is tilted at an angle of 23.5 degrees relative to the plane of
+its orbit around the sun. This tilt means that, as the Earth orbits the sun, dif
+ferent parts of the planet are tilted towards or away from the sun. When the Nor
+th Pole is tilted towards the sun, the Northern Hemisphere experiences summer, a
+nd when it is tilted away, the Northern Hemisphere experiences winter. The oppos
+ite is true for the Southern Hemisphere.
+
+The Earth's orbit around the sun is not a perfect circle, but rather an ellipse.
+ This means that the Earth is sometimes closer to the sun and sometimes farther
+away. However, the difference in distance between the Earth's closest and farthe
+st points from the sun is not enough to significantly affect the seasons. The ti
+lt of the Earth's axis is the main factor that determines the seasons.
+
+The changing tilt of the Earth's axis over the course of the year also affects t
+he length of the day. During the summer, the days are longer because the Earth i
+s tilted towards the sun, and the sun's rays hit the Earth at a more direct angl
+e for a longer period of time. During the winter, the days are shorter because t
+he Earth is tilted away from the sun, and the sun's rays hit the Earth at a more
+ oblique angle for a shorter period of time.
+
+In summary, the tilt of the Earth's axis is the main factor that determines the
+seasons. The changing tilt of the Earth's axis over the course of the year also
+affects the length of the day. The Earth's orbit around the sun is not a perfect
+ circle, but the difference in distance between the Earth's closest and farthest
+ points from the sun is not enough to significantly affect the seasons.
+total time: 134.55s for 432 tokens, tok/s: 3.21
+
+C:\dev_c\llama_st>llama_stw run_json/run_mixtral.json
+read file run_json/run_mixtral.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/tokenizer.json
+load transformer..
+read model config in: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/config.json
+torch float type: bf16
+model weights converted to float12.
+numa node(s): 2, mp node: 1, num logical/physical procs.: 48/24 (HT on)
+processor(s) core(s) used: 22 in 2 node(s).
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00001-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00002-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00003-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00004-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00005-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00006-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00007-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00008-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00009-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00010-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00011-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00012-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00013-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00014-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00015-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00016-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00017-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00018-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00019-of-00019.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.00
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is not as simple as you might think
+. The tilt of the Earth's axis and its orbit around the sun combine to create th
+e seasons, but the tilt itself is the most important factor.
+
+The Earth's axis is tilted at an angle of 23.5 degrees relative to the plane of
+its orbit around the sun. This tilt means that, as the Earth orbits the sun, dif
+ferent parts of the planet are tilted towards or away from the sun. When the Nor
+th Pole is tilted towards the sun, the Northern Hemisphere experiences summer, a
+nd when it is tilted away, the Northern Hemisphere experiences winter. The oppos
+ite is true for the Southern Hemisphere.
+
+The Earth's orbit around the sun is not a perfect circle, but rather an ellipse.
+ This means that the Earth is sometimes closer to the sun and sometimes farther
+away. However, the difference in distance between the Earth's closest and farthe
+st points from the sun is not enough to significantly affect the seasons. The ti
+lt of the Earth's axis is the main factor that determines the seasons.
+
+The changing tilt of the Earth's axis over the course of the year also affects t
+he length of the day. During the summer, the days are longer because the Earth i
+s tilted towards the sun, and the sun's rays hit the Earth at a more direct angl
+e for a longer period of time. During the winter, the days are shorter because t
+he Earth is tilted away from the sun, and the sun's rays hit the Earth at a more
+ oblique angle for a shorter period of time.
+
+In summary, the tilt of the Earth's axis is the main factor that determines the
+seasons. The changing tilt of the Earth's axis over the course of the year also
+affects the length of the day. The Earth's orbit around the sun is not a perfect
+ circle, but the difference in distance between the Earth's closest and farthest
+ points from the sun is not enough to significantly affect the seasons.
+total time: 132.07s for 432 tokens, tok/s: 3.27
+
+C:\dev_c\llama_st>llama_stw run_json/run_mixtral.json
+read file run_json/run_mixtral.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/tokenizer.json
+load transformer..
+read model config in: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/config.json
+torch float type: bf16
+model weights converted to float12.
+numa node(s): 2, mp node: 1, num logical/physical procs.: 48/24 (HT on)
+processor(s) core(s) used: 20 in 2 node(s).
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00001-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00002-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00003-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00004-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00005-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00006-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00007-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00008-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00009-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00010-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00011-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00012-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00013-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00014-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00015-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00016-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00017-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00018-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00019-of-00019.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.00
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is not as simple as you might think
+. The tilt of the Earth's axis and its orbit around the sun combine to create th
+e seasons, but the tilt itself is the most important factor.
+
+The Earth's axis is tilted at an angle of 23.5 degrees relative to the plane of
+its orbit around the sun. This tilt means that, as the Earth orbits the sun, dif
+ferent parts of the planet are tilted towards or away from the sun. When the Nor
+th Pole is tilted towards the sun, the Northern Hemisphere experiences summer, a
+nd when it is tilted away, the Northern Hemisphere experiences winter. The oppos
+ite is true for the Southern Hemisphere.
+
+The Earth's orbit around the sun is not a perfect circle, but rather an ellipse.
+ This means that the Earth is sometimes closer to the sun and sometimes farther
+away. However, the difference in distance between the Earth's closest and farthe
+st points from the sun is not enough to significantly affect the seasons. The ti
+lt of the Earth's axis is the main factor that determines the seasons.
+
+The changing tilt of the Earth's axis over the course of the year also affects t
+he length of the day. During the summer, the days are longer because the Earth i
+s tilted towards the sun, and the sun's rays hit the Earth at a more direct angl
+e for a longer period of time. During the winter, the days are shorter because t
+he Earth is tilted away from the sun, and the sun's rays hit the Earth at a more
+ oblique angle for a shorter period of time.
+
+In summary, the tilt of the Earth's axis is the main factor that determines the
+seasons. The changing tilt of the Earth's axis over the course of the year also
+affects the length of the day. The Earth's orbit around the sun is not a perfect
+ circle, but the difference in distance between the Earth's closest and farthest
+ points from the sun is not enough to significantly affect the seasons.
+total time: 139.39s for 432 tokens, tok/s: 3.10
+
+C:\dev_c\llama_st>
+
+
+
+
+C:\dev_c\llama_st>llama_stw run_json/run_mixtral.json
+read file run_json/run_mixtral.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/tokenizer.json
+load transformer..
+read model config in: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/config.json
+torch float type: bf16
+numa node(s): 2, mp node: 0, num logical/physical procs.: 48/24 (HT on)
+processor(s) used: 24 in 2 node(s).
+node 0 procs: 0,2,4,6,8,10,12,14,16,18,20,22,
+node 1 procs: 24,26,28,30,32,34,36,38,40,42,44,46,
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00001-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00002-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00003-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00004-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00005-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00006-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00007-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00008-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00009-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00010-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00011-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00012-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00013-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00014-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00015-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00016-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00017-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00018-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00019-of-00019.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.00
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is not as simple as you might think
+. The tilt of the Earth's axis and its orbit around the sun combine to create th
+e seasons, but the tilt itself is the most important factor.
+
+The Earth's axis is tilted at an angle of 23.5 degrees relative to the plane of
+its orbit around the sun. This tilt means that, as the Earth orbits the sun, dif
+ferent parts of the planet are tilted towards or away from the sun. When the Nor
+th Pole is tilted towards the sun, the Northern Hemisphere experiences summer, a
+nd when it is tilted away, the Northern Hemisphere experiences winter. The oppos
+ite is true for the Southern Hemisphere.
+
+The Earth's orbit around the sun is not a perfect circle, but rather an ellipse.
+ This means that the Earth is sometimes closer to the sun and sometimes farther
+away. However, the difference in distance between the Earth's closest and farthe
+st points from the sun is not enough to significantly affect the seasons. The ti
+lt of the Earth's axis is the main factor that determines the seasons.
+
+In summary, the tilt of the Earth's axis is the primary factor that causes the s
+easons. The Earth's orbit around the sun also plays a role, but it is less impor
+tant than the tilt.
+total time: 114.35s for 282 tokens, tok/s: 2.47
+
+C:\dev_c\llama_st>
+C:\dev_c\llama_st>
+C:\dev_c\llama_st>llama_stw run_json/run_mixtral.json
+read file run_json/run_mixtral.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/tokenizer.json
+load transformer..
+read model config in: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/config.json
+torch float type: bf16
+numa node(s): 2, mp node: 1, num logical/physical procs.: 48/24 (HT on)
+processor(s) used: 22 in 2 node(s).
+node 0 procs: 0,2,4,6,8,10,12,14,16,18,20,
+node 1 procs: 24,26,28,30,32,34,36,38,40,42,44,
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00001-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00002-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00003-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00004-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00005-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00006-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00007-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00008-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00009-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00010-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00011-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00012-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00013-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00014-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00015-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00016-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00017-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00018-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00019-of-00019.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.00
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is not as simple as you might think
+. The tilt of the Earth's axis and its orbit around the sun combine to create th
+e seasons, but the tilt itself is the most important factor.
+
+The Earth's axis is tilted at an angle of 23.5 degrees relative to the plane of
+its orbit around the sun. This tilt means that, as the Earth orbits the sun, dif
+ferent parts of the planet are tilted towards or away from the sun. When the Nor
+th Pole is tilted towards the sun, the Northern Hemisphere experiences summer, a
+nd when it is tilted away, the Northern Hemisphere experiences winter. The oppos
+ite is true for the Southern Hemisphere.
+
+The Earth's orbit around the sun is not a perfect circle, but rather an ellipse.
+ This means that the Earth is sometimes closer to the sun and sometimes farther
+away. However, the difference in distance between the Earth's closest and farthe
+st points from the sun is not enough to significantly affect the seasons. The ti
+lt of the Earth's axis is the main factor that determines the seasons.
+
+In summary, the tilt of the Earth's axis is the primary factor that causes the s
+easons. The Earth's orbit around the sun also plays a role, but it is less impor
+tant than the tilt.
+total time: 95.71s for 282 tokens, tok/s: 2.95
+
+C:\dev_c\llama_st>llama_stw run_json/run_mixtral.json
+read file run_json/run_mixtral.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/tokenizer.json
+load transformer..
+read model config in: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/config.json
+torch float type: bf16
+model weights converted to float12.
+numa node(s): 2, mp node: 1, num logical/physical procs.: 48/24 (HT on)
+processor(s) used: 22 in 2 node(s).
+node 0 procs: 0,2,4,6,8,10,12,14,16,18,20,
+node 1 procs: 24,26,28,30,32,34,36,38,40,42,44,
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00001-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00002-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00003-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00004-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00005-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00006-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00007-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00008-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00009-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00010-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00011-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00012-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00013-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00014-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00015-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00016-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00017-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00018-of-00019.safetensors
+load: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00019-of-00019.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.00
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is not as simple as you might think
+. The tilt of the Earth's axis and its orbit around the sun combine to create th
+e seasons, but the tilt itself is the most important factor.
+
+The Earth's axis is tilted at an angle of 23.5 degrees relative to the plane of
+its orbit around the sun. This tilt means that, as the Earth orbits the sun, dif
+ferent parts of the planet are tilted towards or away from the sun. When the Nor
+th Pole is tilted towards the sun, the Northern Hemisphere experiences summer, a
+nd when it is tilted away, the Northern Hemisphere experiences winter. The oppos
+ite is true for the Southern Hemisphere.
+
+The Earth's orbit around the sun is not a perfect circle, but rather an ellipse.
+ This means that the Earth is sometimes closer to the sun and sometimes farther
+away. However, the difference in distance between the Earth's closest and farthe
+st points from the sun is not enough to significantly affect the seasons. The ti
+lt of the Earth's axis is the main factor that determines the seasons.
+
+The changing tilt of the Earth's axis over the course of the year also affects t
+he length of the day. During the summer, the days are longer because the Earth i
+s tilted towards the sun, and the sun's rays hit the Earth at a more direct angl
+e for a longer period of time. During the winter, the days are shorter because t
+he Earth is tilted away from the sun, and the sun's rays hit the Earth at a more
+ oblique angle for a shorter period of time.
+
+In summary, the tilt of the Earth's axis is the main factor that determines the
+seasons. The changing tilt of the Earth's axis over the course of the year also
+affects the length of the day. The Earth's orbit around the sun is not a perfect
+ circle, but the difference in distance between the Earth's closest and farthest
+ points from the sun is not enough to significantly affect the seasons.
+total time: 125.69s for 432 tokens, tok/s: 3.44
+
+C:\dev_c\llama_st>

@@ -1,0 +1,177 @@
+read file run_json/run_llama3.1.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: D:/llama3.1_st/8b-instruct/tokenizer.json
+load transformer..
+read model config in: D:/llama3.1_st/8b-instruct/config.json
+torch float type: bf16
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: D:/llama3.1_st/8b-instruct/model-00001-of-00004.safetensors
+load: D:/llama3.1_st/8b-instruct/model-00002-of-00004.safetensors
+load: D:/llama3.1_st/8b-instruct/model-00003-of-00004.safetensors
+load: D:/llama3.1_st/8b-instruct/model-00004-of-00004.safetensors
+sampler config:
+  temperature      : 0.90
+  topp             : 0.85
+  topk             : 30
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 100
+  eos_amp          : 0.50
+  eos_amp_n        : 250
+  rand seed        : 1234
+Generate: max 131072 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is rooted in the Earth's tilt and o
+rbit around the Sun. The tilt of the Earth is approximately 23.5 degrees, which
+causes the amount of sunlight that reaches the planet's surface to vary througho
+ut the year. During the summer months, the Northern Hemisphere is tilted towards
+ the Sun, resulting in longer days and more direct sunlight. Conversely, during
+the winter months, the Northern Hemisphere is tilted away from the Sun, resultin
+g in shorter days and less direct sunlight.
+This tilt is the primary cause of the changing seasons, with the Earth's orbit a
+round the Sun also playing a role. The Earth's orbit is elliptical, meaning that
+ its distance from the Sun varies throughout the year. However, the difference i
+n distance has a minimal impact on the seasons, as the tilt of the Earth is the
+dominant factor.
+The four seasons that occur on Earth are:
+1. **Spring**: Typically begins around March 20/21 in the Northern Hemisphere an
+d September 22/23 in the Southern Hemisphere. During this season, the weather st
+arts to warm up, and days get longer.
+2. **Summer**: Begins around June 20/21 in the Northern Hemisphere and December
+21/22 in the Southern Hemisphere. This season is characterized by long days, war
+m temperatures, and often dry conditions.
+3. **Autumn** (or **Fall**): Begins around September 22/23 in the Northern Hemis
+phere and March 20/21 in the Southern Hemisphere. As the days shorten, temperatu
+res cool, and leaves on trees change color before falling.
+4. **Winter**: Begins around December 21/22 in the Northern Hemisphere and June
+20/21 in the Southern Hemisphere. This season is marked by shorter days, colder
+temperatures, and often snow and ice.
+
+The seasonal variations have a significant impact on the environment, ecosystems
+, and human societies. Understanding the causes of the seasons is essential for
+predicting weather patterns, managing resources, and planning activities.
+total time: 88.53s for 398 tokens, tok/s: 4.50
+Press any key to continue . . .
+
+
+
+C:\dev_c\llama_st>llama_stw run_json/run_llama3.1.json
+read file run_json/run_llama3.1.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: D:/llama3.1_st/8b-instruct/tokenizer.json
+load transformer..
+read model config in: D:/llama3.1_st/8b-instruct/config.json
+torch float type: bf16
+numa node(s): 1, mp node: 0, num logical/physical procs.: 28/14 (HT on)
+processor(s) core(s) used: 12 in 1 node(s).
+load: D:/llama3.1_st/8b-instruct/model-00001-of-00004.safetensors
+load: D:/llama3.1_st/8b-instruct/model-00002-of-00004.safetensors
+load: D:/llama3.1_st/8b-instruct/model-00003-of-00004.safetensors
+load: D:/llama3.1_st/8b-instruct/model-00004-of-00004.safetensors
+sampler config:
+  temperature      : 0.90
+  topp             : 0.85
+  topk             : 30
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 100
+  eos_amp          : 0.50
+  eos_amp_n        : 250
+  rand seed        : 1234
+Generate: max 131072 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is rooted in the Earth's tilt and o
+rbit around the Sun. The tilt of the Earth is approximately 23.5 degrees, which
+causes the amount of sunlight that reaches the planet's surface to vary througho
+ut the year. During the summer months, the Northern Hemisphere is tilted towards
+ the Sun, resulting in longer days and more direct sunlight. Conversely, during
+the winter months, the Northern Hemisphere is tilted away from the Sun, resultin
+g in shorter days and less direct sunlight.
+This tilt is the primary cause of the changing seasons, with the Earth's orbit a
+round the Sun also playing a role. The Earth's orbit is elliptical, meaning that
+ its distance from the Sun varies throughout the year. However, the difference i
+n distance has a minimal impact on the seasons, as the tilt of the Earth is the
+dominant factor.
+The four seasons that occur on Earth are:
+1. **Spring**: Typically begins around March 20/21 in the Northern Hemisphere an
+d September 22/23 in the Southern Hemisphere. During this season, the weather st
+arts to warm up, and days get longer.
+2. **Summer**: Begins around June 20/21 in the Northern Hemisphere and December
+21/22 in the Southern Hemisphere. This season is characterized by long days, war
+m temperatures, and often dry conditions.
+3. **Autumn** (or **Fall**): Begins around September 22/23 in the Northern Hemis
+phere and March 20/21 in the Southern Hemisphere. As the days shorten, temperatu
+res cool, and leaves on trees change color before falling.
+4. **Winter**: Begins around December 21/22 in the Northern Hemisphere and June
+20/21 in the Southern Hemisphere. This season is marked by shorter days, colder
+temperatures, and often snow and ice.
+
+The seasonal variations have a significant impact on the environment, ecosystems
+, and human societies. Understanding the causes of the seasons is essential for
+predicting weather patterns, managing resources, and planning activities.
+total time: 91.50s for 398 tokens, tok/s: 4.35
+
+C:\dev_c\llama_st>llama_stw run_json/run_llama3.1.json
+read file run_json/run_llama3.1.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: D:/llama3.1_st/8b-instruct/tokenizer.json
+load transformer..
+read model config in: D:/llama3.1_st/8b-instruct/config.json
+torch float type: bf16
+numa node(s): 1, mp node: 0, num logical/physical procs.: 28/14 (HT on)
+processor(s) core(s) used: 14 in 1 node(s).
+load: D:/llama3.1_st/8b-instruct/model-00001-of-00004.safetensors
+load: D:/llama3.1_st/8b-instruct/model-00002-of-00004.safetensors
+load: D:/llama3.1_st/8b-instruct/model-00003-of-00004.safetensors
+load: D:/llama3.1_st/8b-instruct/model-00004-of-00004.safetensors
+sampler config:
+  temperature      : 0.90
+  topp             : 0.85
+  topk             : 30
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 100
+  eos_amp          : 0.50
+  eos_amp_n        : 250
+  rand seed        : 1234
+Generate: max 131072 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is rooted in the Earth's tilt and o
+rbit around the Sun. The tilt of the Earth is approximately 23.5 degrees, which
+causes the amount of sunlight that reaches the planet's surface to vary througho
+ut the year. During the summer months, the Northern Hemisphere is tilted towards
+ the Sun, resulting in longer days and more direct sunlight. Conversely, during
+the winter months, the Northern Hemisphere is tilted away from the Sun, resultin
+g in shorter days and less direct sunlight.
+This tilt is the primary cause of the changing seasons, with the Earth's orbit a
+round the Sun also playing a role. The Earth's orbit is elliptical, meaning that
+ its distance from the Sun varies throughout the year. However, the difference i
+n distance has a minimal impact on the seasons, as the tilt of the Earth is the
+dominant factor.
+The four seasons that occur on Earth are:
+1. **Spring**: Typically begins around March 20/21 in the Northern Hemisphere an
+d September 22/23 in the Southern Hemisphere. During this season, the weather st
+arts to warm up, and days get longer.
+2. **Summer**: Begins around June 20/21 in the Northern Hemisphere and December
+21/22 in the Southern Hemisphere. This season is characterized by long days, war
+m temperatures, and often dry conditions.
+3. **Autumn** (or **Fall**): Begins around September 22/23 in the Northern Hemis
+phere and March 20/21 in the Southern Hemisphere. As the days shorten, temperatu
+res cool, and leaves on trees change color before falling.
+4. **Winter**: Begins around December 21/22 in the Northern Hemisphere and June
+20/21 in the Southern Hemisphere. This season is marked by shorter days, colder
+temperatures, and often snow and ice.
+
+The seasonal variations have a significant impact on the environment, ecosystems
+, and human societies. Understanding the causes of the seasons is essential for
+predicting weather patterns, managing resources, and planning activities.
+total time: 91.73s for 398 tokens, tok/s: 4.34
+
+C:\dev_c\llama_st>

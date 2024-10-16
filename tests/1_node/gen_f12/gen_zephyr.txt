@@ -1,0 +1,53 @@
+read file run_json/run_zephyr.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: E:/zephyr/zephyr-7b-beta/tokenizer.json
+load transformer..
+read model config in: E:/zephyr/zephyr-7b-beta/config.json
+torch float type: bf16
+model weights converted to float12.
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: E:/zephyr/zephyr-7b-beta/model-00001-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00002-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00003-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00004-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00005-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00006-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00007-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00008-of-00008.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is based on the Earth's tilt. The E
+arth is tilted at an angle of 23.5 degrees from its axis, which is the imaginary
+ line that runs from the North Pole to the South Pole. This tilt causes the amou
+nt of sunlight that reaches different parts of the Earth to vary throughout the
+year.
+
+During the summer months in the Northern Hemisphere, the North Pole is tilted to
+wards the sun, which results in longer days and more sunlight. This extra sunlig
+ht causes the temperature to rise, leading to the warmer weather that we associa
+te with summer.
+
+In contrast, during the winter months in the Northern Hemisphere, the North Pole
+ is tilted away from the sun, which results in shorter days and less sunlight. T
+his lack of sunlight causes the temperature to drop, leading to the colder weath
+er that we associate with winter.
+
+The same pattern occurs in the Southern Hemisphere, but with the opposite season
+s. During the summer months in the Southern Hemisphere, the South Pole is tilted
+ towards the sun, and during the winter months, the South Pole is tilted away fr
+om the sun.
+total time: 41.55s for 247 tokens, tok/s: 5.95
+Press any key to continue . . .

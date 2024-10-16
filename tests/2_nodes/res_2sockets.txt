@@ -1,0 +1,154 @@
+LLama2 7B 
+C:\dev_c\llama_st>llama_stw run_json/run_llama2.json
+read model config in: D:/llama2/llama2-7b-chat-hf/config.json
+
+numa node(s): 2, mp node: 1, num logical/physical procs.: 48/24 (HT on)
+
+processor(s) used: 24 in 2 node(s).
+total time: 28.00s for 249 tokens, tok/s: 8.89
+
+processor(s) used: 22 in 2 node(s).
+total time: 27.49s for 249 tokens, tok/s: 9.06
+
+processor(s) used: 20 in 2 node(s).
+total time: 27.92s for 249 tokens, tok/s: 8.92
+
+processor(s) used: 18 in 2 node(s).
+total time: 28.55s for 249 tokens, tok/s: 8.72
+
+processor(s) used: 16 in 2 node(s).
+total time: 29.76s for 249 tokens, tok/s: 8.37
+
+
+model weights converted to float12.
+
+processor(s) used: 24 in 2 node(s).
+total time: 22.87s for 249 tokens, tok/s: 10.89
+
+processor(s) used: 22 in 2 node(s).
+total time: 24.57s for 249 tokens, tok/s: 10.13
+
+processor(s) used: 20 in 2 node(s).
+total time: 26.27s for 249 tokens, tok/s: 9.48
+
+processor(s) used: 18 in 2 node(s).
+total time: 28.89s for 249 tokens, tok/s: 8.62
+
+processor(s) used: 16 in 2 node(s).
+total time: 32.35s for 249 tokens, tok/s: 7.70
+
+
+// --------------------------------------
+
+read model config in: D:/qwen/qwen2.5-7B-Instruct/config.json
+
+processor(s) used: 24 in 2 node(s).
+total time: 63.40s for 543 tokens, tok/s: 8.56
+
+processor(s) used: 22 in 2 node(s).
+total time: 63.74s for 543 tokens, tok/s: 8.52
+
+processor(s) used: 20 in 2 node(s).
+total time: 64.12s for 543 tokens, tok/s: 8.47
+
+processor(s) used: 18 in 2 node(s).
+total time: 66.64s for 543 tokens, tok/s: 8.15
+
+processor(s) used: 16 in 2 node(s).
+total time: 69.56s for 543 tokens, tok/s: 7.81
+
+f12
+
+processor(s) used: 24 in 2 node(s).
+total time: 52.88s for 543 tokens, tok/s: 10.27
+
+processor(s) used: 22 in 2 node(s).
+total time: 59.48s for 543 tokens, tok/s: 9.13
+
+processor(s) used: 20 in 2 node(s).
+total time: 65.05s for 543 tokens, tok/s: 8.35
+
+
+
+load tokenizer: D:/qwen/qwen2.5-72b-intruct/tokenizer.json
+model weights converted to float12.
+
+processor(s) used: 24 in 2 node(s).
+total time: 924.74s for 480 tokens, tok/s: 0.52
+
+
+
+
+load tokenizer: D:/mixtral/Mixtral-8x7B-Instruct-v0.1/tokenizer.json
+torch float type: bf16
+
+processor(s) core(s) used: 12 in 1 node(s). (HT off)
+total time: 174.74s for 282 tokens, tok/s: 1.61
+
+processor(s) core(s) used: 12 in 2 node(s).
+total time: 111.21s for 282 tokens, tok/s: 2.54
+
+processor(s) core(s) used: 24 in 2 node(s).
+total time: 136.61s for 282 tokens, tok/s: 2.06  (slown down occured)
+
+processor(s) core(s) used: 22 in 2 node(s).
+total time: 99.81s for 282 tokens, tok/s: 2.83
+
+processor(s) core(s) used: 20 in 2 node(s).
+total time: 108.33s for 282 tokens, tok/s: 2.60
+
+model weights converted to float12.
+
+processor(s) core(s) used: 10 in 1 node(s). (HT off)
+total time: 208.03s for 432 tokens, tok/s: 2.08
+
+processor(s) core(s) used: 10 in 2 node(s).
+total time: 182.43s for 432 tokens, tok/s: 2.37
+
+processor(s) core(s) used: 24 in 2 node(s).
+total time: 181.87s for 432 tokens, tok/s: 2.38
+
+processor(s) core(s) used: 22 in 2 node(s).
+total time: 137.13s for 432 tokens, tok/s: 3.15
+
+processor(s) core(s) used: 20 in 2 node(s).
+total time: 122.16s for 432 tokens, tok/s: 3.54
+
+processor(s) core(s) used: 18 in 2 node(s).
+total time: 144.04s for 432 tokens, tok/s: 3.00
+
+HT on
+
+torch float type: bf16
+processor(s) core(s) used: 24 in 2 node(s).
+total time: 83.26s for 282 tokens, tok/s: 3.39
+
+processor(s) core(s) used: 22 in 2 node(s).
+total time: 98.09s for 282 tokens, tok/s: 2.87
+
+model weights converted to float12.
+processor(s) core(s) used: 24 in 2 node(s).
+total time: 134.55s for 432 tokens, tok/s: 3.21
+
+processor(s) core(s) used: 22 in 2 node(s).
+total time: 132.07s for 432 tokens, tok/s: 3.27
+
+processor(s) core(s) used: 20 in 2 node(s).
+total time: 139.39s for 432 tokens, tok/s: 3.10
+
+
+torch float type: bf16
+processor(s) used: 24 in 2 node(s).
+node 0 procs: 0,2,4,6,8,10,12,14,16,18,20,22,
+node 1 procs: 24,26,28,30,32,34,36,38,40,42,44,46,
+total time: 114.35s for 282 tokens, tok/s: 2.47
+
+processor(s) used: 22 in 2 node(s).
+total time: 95.71s for 282 tokens, tok/s: 2.95
+
+model weights converted to float12.
+numa node(s): 2, mp node: 1, num logical/physical procs.: 48/24 (HT on)
+processor(s) used: 22 in 2 node(s).
+total time: 125.69s for 432 tokens, tok/s: 3.44
+
+

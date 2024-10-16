@@ -1,0 +1,51 @@
+read file run_json/run_mistral.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: E:/mistral/mistral-7b-instruct-v0.3/tokenizer.json
+load transformer..
+read model config in: E:/mistral/mistral-7b-instruct-v0.3/config.json
+torch float type: bf16
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: E:/mistral/mistral-7b-instruct-v0.3/model-00001-of-00003.safetensors
+load: E:/mistral/mistral-7b-instruct-v0.3/model-00002-of-00003.safetensors
+load: E:/mistral/mistral-7b-instruct-v0.3/model-00003-of-00003.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is based on the tilt of the Earth's
+ axis. The Earth is not a perfect sphere, but is slightly flattened at the poles
+ and bulging at the equator. The Earth's axis of rotation is tilted at an angle
+of about 23.5 degrees relative to its orbit around the sun. This tilt is respons
+ible for the variation in the amount of sunlight received by different parts of
+the Earth, and therefore for the seasons.
+
+During the summer solstice, the North Pole is tilted towards the sun and receive
+s the maximum amount of sunlight, while the South Pole is tilted away and receiv
+es the minimum amount of sunlight. Conversely, during the winter solstice, the N
+orth Pole is tilted away from the sun and receives the minimum amount of sunligh
+t, while the South Pole is tilted towards the sun and receives the maximum amoun
+t of sunlight.
+
+The tilt of the Earth's axis causes the sun to appear to move in a circular path
+ across the sky, with the highest point of the path (the solar noon) moving nort
+hward during the summer and southward during the winter. This movement of the so
+lar noon is what causes the seasons.
+
+During the summer, the solar noon is located further north, which means that the
+ sun is higher in the sky and shines for a longer period of time. This results i
+n warmer temperatures and longer days. During the winter, the solar noon is loca
+ted further south, which means that the sun is lower in the sky and shines for a
+ shorter period
+total time: 70.23s for 331 tokens, tok/s: 4.71
+Press any key to continue . . .

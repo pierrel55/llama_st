@@ -1,0 +1,69 @@
+read file run_json/run_mixtral.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/tokenizer.json
+load transformer..
+read model config in: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/config.json
+torch float type: bf16
+model weights converted to float8.
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00001-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00002-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00003-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00004-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00005-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00006-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00007-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00008-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00009-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00010-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00011-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00012-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00013-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00014-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00015-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00016-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00017-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00018-of-00019.safetensors
+load: E:/mixtral/Mixtral-8x7B-Instruct-v0.1/model-00019-of-00019.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.00
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is not as simple as you might think
+. The tilt of the Earth's axis and its orbit around the sun combine to create th
+e seasons, but the tilt itself is the most important factor. The Earth's axis is
+ tilted at an angle of 23.5 degrees from the vertical, and this tilt is what cau
+ses the sun's rays to hit different parts of the Earth at different angles durin
+g different times of the year.
+
+During the summer, the Earth's tilt causes the sun's rays to hit the Earth at a
+more direct angle, resulting in more intense heat and longer days. In the winter
+, the tilt causes the sun's rays to hit the Earth at a more oblique angle, resul
+ting in less intense heat and shorter days. The tilt also causes the sun to appe
+ar higher in the sky during the summer and lower in the sky during the winter.
+
+The Earth's orbit around the sun also plays a role in the creation of seasons, b
+ut it is less important than the tilt of the Earth's axis. The Earth's orbit is
+not a perfect circle, but rather an ellipse. This means that the Earth is closer
+ to the sun at certain times of the year and farther away at other times. Howeve
+r, the difference in distance between the Earth and the sun is not enough to sig
+nificantly affect the intensity of the sun's rays or the length of the days.
+
+In summary, the tilt of the Earth's axis is the primary factor responsible for t
+he creation of seasons. The Earth's orbit around the sun also plays a role, but
+it is less important than the tilt. The tilt causes the sun's rays to hit differ
+ent parts of the Earth at different angles, resulting in the varying temperature
+s and day lengths that we associate with the seasons.
+total time: 79.28s for 384 tokens, tok/s: 4.84
+Press any key to continue . . .

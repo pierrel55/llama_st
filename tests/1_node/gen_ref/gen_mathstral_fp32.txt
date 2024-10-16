@@ -1,0 +1,48 @@
+read file run_json/run_mathstral.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: E:/mathstral/Mathstral-7B-v0.1/tokenizer.json
+load transformer..
+read model config in: E:/mathstral/Mathstral-7B-v0.1/config.json
+torch float type: fp32
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: E:/mathstral/Mathstral-7B-v0.1/model-00001-of-00006.safetensors
+load: E:/mathstral/Mathstral-7B-v0.1/model-00002-of-00006.safetensors
+load: E:/mathstral/Mathstral-7B-v0.1/model-00003-of-00006.safetensors
+load: E:/mathstral/Mathstral-7B-v0.1/model-00004-of-00006.safetensors
+load: E:/mathstral/Mathstral-7B-v0.1/model-00005-of-00006.safetensors
+load: E:/mathstral/Mathstral-7B-v0.1/model-00006-of-00006.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is related to the Earth's tilt and
+its orbit around the Sun.
+
+Seasons occur because the Earth's axis is tilted at an angle of about 23.5 degre
+es relative to the plane of its orbit around the Sun. This tilt causes the amoun
+t of solar energy received by different parts of the Earth to vary throughout th
+e year, leading to the different seasons.
+
+During the summer, the North Pole is tilted towards the Sun, and the Tropic of C
+ancer (23.5 degrees north latitude) receives the most direct sunlight. This caus
+es the northern hemisphere to experience longer days and warmer temperatures, re
+sulting in summer.
+
+In the winter, the opposite happens. The North Pole is tilted away from the Sun,
+ and the Tropic of Capricorn (23.5 degrees south latitude) receives the most dir
+ect sunlight. This causes the southern hemisphere to experience longer days and
+warmer temperatures, resulting in summer there, while the northern hemisphere ex
+periences shorter days and colder temperatures, resulting in winter.
+total time: 96.16s for 231 tokens, tok/s: 2.40
+Press any key to continue . . .

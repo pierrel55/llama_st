@@ -1,0 +1,328 @@
+
+C:\dev_c\llama_st>llama_stw run_json/run_llama2.json
+read file run_json/run_llama2.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: F:/llama2/llama2-7b-chat-hf/tokenizer.json
+load transformer..
+read model config in: F:/llama2/llama2-7b-chat-hf/config.json
+rope_theta undefined, expect rotary_emb.inv_freq contained in .safetensors
+torch float type: fp16
+model weights converted to float12.
+numa node(s): 2, mp node: 0, num logical/physical procs.: 24/24 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+available memory in node 0: 58.67 Gb
+available memory in node 1: 49.20 Gb
+available memory in node 0: 58.67 Gb
+available memory in node 1: 49.20 Gb
+load: F:/llama2/llama2-7b-chat-hf/model-00001-of-00002.safetensors
+load: F:/llama2/llama2-7b-chat-hf/model-00002-of-00002.safetensors
+available memory in node 0: 49.09 Gb
+available memory in node 1: 49.20 Gb
+sampler config:
+  temperature      : 0.90
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 4096 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is due to the tilt of the Earth's a
+xis and its orbit around the sun.
+
+The Earth's axis is tilted at an angle of approximately 23.5 degrees relative to
+ the plane of its orbit around the sun. This means that, as the Earth orbits the
+ sun, different parts of the planet are tilted towards or away from the sun, res
+ulting in changes in the amount of sunlight that reaches the Earth's surface.
+
+During the summer months in the Northern Hemisphere, the Earth is tilted towards
+ the sun, resulting in longer days and more direct sunlight reaching the surface
+. This leads to warmer temperatures and longer days.
+
+In contrast, during the winter months in the Northern Hemisphere, the Earth is t
+ilted away from the sun, resulting in shorter days and less direct sunlight reac
+hing the surface. This leads to colder temperatures and shorter days.
+
+The same process occurs in the Southern Hemisphere, but with the opposite season
+s. When it is summer in the Northern Hemisphere, it is winter in the Southern He
+misphere, and vice versa.
+total time: 44.40s for 249 tokens, tok/s: 5.61
+
+C:\dev_c\llama_st>llama_stw run_json/run_llama2.json
+read file run_json/run_llama2.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: F:/llama2/llama2-7b-chat-hf/tokenizer.json
+load transformer..
+read model config in: F:/llama2/llama2-7b-chat-hf/config.json
+rope_theta undefined, expect rotary_emb.inv_freq contained in .safetensors
+torch float type: fp16
+model weights converted to float12.
+numa node(s): 2, mp node: 1, num logical/physical procs.: 24/24 (HT off)
+processor(s) core(s) used: 12 in 2 node(s).
+available memory in node 0: 58.68 Gb
+available memory in node 1: 49.19 Gb
+available memory in node 0: 58.68 Gb
+available memory in node 1: 49.19 Gb
+load: F:/llama2/llama2-7b-chat-hf/model-00001-of-00002.safetensors
+load: F:/llama2/llama2-7b-chat-hf/model-00002-of-00002.safetensors
+available memory in node 0: 53.93 Gb
+available memory in node 1: 44.38 Gb
+sampler config:
+  temperature      : 0.90
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 4096 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is due to the tilt of the Earth's a
+xis and its orbit around the sun.
+
+The Earth's axis is tilted at an angle of approximately 23.5 degrees relative to
+ the plane of its orbit around the sun. This means that, as the Earth orbits the
+ sun, different parts of the planet are tilted towards or away from the sun, res
+ulting in changes in the amount of sunlight that reaches the Earth's surface.
+
+During the summer months in the Northern Hemisphere, the Earth is tilted towards
+ the sun, resulting in longer days and more direct sunlight reaching the surface
+. This leads to warmer temperatures and longer days.
+
+In contrast, during the winter months in the Northern Hemisphere, the Earth is t
+ilted away from the sun, resulting in shorter days and less direct sunlight reac
+hing the surface. This leads to colder temperatures and shorter days.
+
+The same process occurs in the Southern Hemisphere, but with the opposite season
+s. When it is summer in the Northern Hemisphere, it is winter in the Southern He
+misphere, and vice versa.
+total time: 41.65s for 249 tokens, tok/s: 5.98
+
+C:\dev_c\llama_st>llama_stw run_json/run_llama2.json
+read file run_json/run_llama2.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: F:/llama2/llama2-7b-chat-hf/tokenizer.json
+load transformer..
+read model config in: F:/llama2/llama2-7b-chat-hf/config.json
+rope_theta undefined, expect rotary_emb.inv_freq contained in .safetensors
+torch float type: fp16
+model weights converted to float12.
+numa node(s): 2, mp node: 0, num logical/physical procs.: 24/24 (HT off)
+processor(s) core(s) used: 24 in 2 node(s).
+available memory in node 0: 58.68 Gb
+available memory in node 1: 49.19 Gb
+available memory in node 0: 58.68 Gb
+available memory in node 1: 49.19 Gb
+load: F:/llama2/llama2-7b-chat-hf/model-00001-of-00002.safetensors
+load: F:/llama2/llama2-7b-chat-hf/model-00002-of-00002.safetensors
+available memory in node 0: 53.86 Gb
+available memory in node 1: 44.44 Gb
+sampler config:
+  temperature      : 0.90
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 4096 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is due to the tilt of the Earth's a
+xis and its orbit around the sun.
+
+The Earth's axis is tilted at an angle of approximately 23.5 degrees relative to
+ the plane of its orbit around the sun. This means that, as the Earth orbits the
+ sun, different parts of the planet are tilted towards or away from the sun, res
+ulting in changes in the amount of sunlight that reaches the Earth's surface.
+
+During the summer months in the Northern Hemisphere, the Earth is tilted towards
+ the sun, resulting in longer days and more direct sunlight reaching the surface
+. This leads to warmer temperatures and longer days.
+
+In contrast, during the winter months in the Northern Hemisphere, the Earth is t
+ilted away from the sun, resulting in shorter days and less direct sunlight reac
+hing the surface. This leads to colder temperatures and shorter days.
+
+The same process occurs in the Southern Hemisphere, but with the opposite season
+s. When it is summer in the Northern Hemisphere, it is winter in the Southern He
+misphere, and vice versa.
+total time: 23.23s for 249 tokens, tok/s: 10.72
+
+C:\dev_c\llama_st>
+C:\dev_c\llama_st>llama_stw run_json/run_llama2.json
+read file run_json/run_llama2.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: F:/llama2/llama2-7b-chat-hf/tokenizer.json
+load transformer..
+read model config in: F:/llama2/llama2-7b-chat-hf/config.json
+rope_theta undefined, expect rotary_emb.inv_freq contained in .safetensors
+torch float type: fp16
+model weights converted to float12.
+numa node(s): 2, mp node: 1, num logical/physical procs.: 24/24 (HT off)
+processor(s) core(s) used: 22 in 2 node(s).
+available memory in node 0: 58.67 Gb
+available memory in node 1: 49.19 Gb
+available memory in node 0: 58.67 Gb
+available memory in node 1: 49.19 Gb
+load: F:/llama2/llama2-7b-chat-hf/model-00001-of-00002.safetensors
+load: F:/llama2/llama2-7b-chat-hf/model-00002-of-00002.safetensors
+available memory in node 0: 53.93 Gb
+available memory in node 1: 44.37 Gb
+sampler config:
+  temperature      : 0.90
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 4096 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is due to the tilt of the Earth's a
+xis and its orbit around the sun.
+
+The Earth's axis is tilted at an angle of approximately 23.5 degrees relative to
+ the plane of its orbit around the sun. This means that, as the Earth orbits the
+ sun, different parts of the planet are tilted towards or away from the sun, res
+ulting in changes in the amount of sunlight that reaches the Earth's surface.
+
+During the summer months in the Northern Hemisphere, the Earth is tilted towards
+ the sun, resulting in longer days and more direct sunlight reaching the surface
+. This leads to warmer temperatures and longer days.
+
+In contrast, during the winter months in the Northern Hemisphere, the Earth is t
+ilted away from the sun, resulting in shorter days and less direct sunlight reac
+hing the surface. This leads to colder temperatures and shorter days.
+
+The same process occurs in the Southern Hemisphere, but with the opposite season
+s. When it is summer in the Northern Hemisphere, it is winter in the Southern He
+misphere, and vice versa.
+total time: 27.27s for 249 tokens, tok/s: 9.13
+
+C:\dev_c\llama_st>
+C:\dev_c\llama_st>llama_stw run_json/run_llama2.json
+read file run_json/run_llama2.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: F:/llama2/llama2-7b-chat-hf/tokenizer.json
+load transformer..
+read model config in: F:/llama2/llama2-7b-chat-hf/config.json
+rope_theta undefined, expect rotary_emb.inv_freq contained in .safetensors
+torch float type: fp16
+model weights converted to float12.
+numa node(s): 2, mp node: 0, num logical/physical procs.: 24/24 (HT off)
+processor(s) core(s) used: 20 in 2 node(s).
+available memory in node 0: 58.67 Gb
+available memory in node 1: 49.19 Gb
+available memory in node 0: 58.67 Gb
+available memory in node 1: 49.19 Gb
+load: F:/llama2/llama2-7b-chat-hf/model-00001-of-00002.safetensors
+load: F:/llama2/llama2-7b-chat-hf/model-00002-of-00002.safetensors
+available memory in node 0: 53.86 Gb
+available memory in node 1: 44.44 Gb
+sampler config:
+  temperature      : 0.90
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 4096 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is due to the tilt of the Earth's a
+xis and its orbit around the sun.
+
+The Earth's axis is tilted at an angle of approximately 23.5 degrees relative to
+ the plane of its orbit around the sun. This means that, as the Earth orbits the
+ sun, different parts of the planet are tilted towards or away from the sun, res
+ulting in changes in the amount of sunlight that reaches the Earth's surface.
+
+During the summer months in the Northern Hemisphere, the Earth is tilted towards
+ the sun, resulting in longer days and more direct sunlight reaching the surface
+. This leads to warmer temperatures and longer days.
+
+In contrast, during the winter months in the Northern Hemisphere, the Earth is t
+ilted away from the sun, resulting in shorter days and less direct sunlight reac
+hing the surface. This leads to colder temperatures and shorter days.
+
+The same process occurs in the Southern Hemisphere, but with the opposite season
+s. When it is summer in the Northern Hemisphere, it is winter in the Southern He
+misphere, and vice versa.
+total time: 27.32s for 249 tokens, tok/s: 9.12
+
+C:\dev_c\llama_st>llama_stw run_json/run_llama2.json
+read file run_json/run_llama2.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: F:/llama2/llama2-7b-chat-hf/tokenizer.json
+load transformer..
+read model config in: F:/llama2/llama2-7b-chat-hf/config.json
+rope_theta undefined, expect rotary_emb.inv_freq contained in .safetensors
+torch float type: fp16
+model weights converted to float12.
+numa node(s): 2, mp node: 1, num logical/physical procs.: 24/24 (HT off)
+processor(s) core(s) used: 18 in 2 node(s).
+available memory in node 0: 58.68 Gb
+available memory in node 1: 49.19 Gb
+available memory in node 0: 58.68 Gb
+available memory in node 1: 49.19 Gb
+load: F:/llama2/llama2-7b-chat-hf/model-00001-of-00002.safetensors
+load: F:/llama2/llama2-7b-chat-hf/model-00002-of-00002.safetensors
+available memory in node 0: 53.93 Gb
+available memory in node 1: 44.37 Gb
+sampler config:
+  temperature      : 0.90
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 4096 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is due to the tilt of the Earth's a
+xis and its orbit around the sun.
+
+The Earth's axis is tilted at an angle of approximately 23.5 degrees relative to
+ the plane of its orbit around the sun. This means that, as the Earth orbits the
+ sun, different parts of the planet are tilted towards or away from the sun, res
+ulting in changes in the amount of sunlight that reaches the Earth's surface.
+
+During the summer months in the Northern Hemisphere, the Earth is tilted towards
+ the sun, resulting in longer days and more direct sunlight reaching the surface
+. This leads to warmer temperatures and longer days.
+
+In contrast, during the winter months in the Northern Hemisphere, the Earth is t
+ilted away from the sun, resulting in shorter days and less direct sunlight reac
+hing the surface. This leads to colder temperatures and shorter days.
+
+The same process occurs in the Southern Hemisphere, but with the opposite season
+s. When it is summer in the Northern Hemisphere, it is winter in the Southern He
+misphere, and vice versa.
+total time: 29.00s for 249 tokens, tok/s: 8.59
+
+C:\dev_c\llama_st>

@@ -1,0 +1,54 @@
+read file run_json/run_mistral.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: E:/mistral/mistral-7b-instruct-v0.3/tokenizer.json
+load transformer..
+read model config in: E:/mistral/mistral-7b-instruct-v0.3/config.json
+torch float type: bf16
+model weights converted to float12.
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: E:/mistral/mistral-7b-instruct-v0.3/model-00001-of-00003.safetensors
+load: E:/mistral/mistral-7b-instruct-v0.3/model-00002-of-00003.safetensors
+load: E:/mistral/mistral-7b-instruct-v0.3/model-00003-of-00003.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is based on the tilt of the Earth's
+ axis. The Earth is not a perfect sphere, but is slightly flattened at the poles
+ and bulging at the equator. The Earth's axis of rotation is tilted at an angle
+of about 23.5 degrees relative to its orbit around the sun. This tilt is respons
+ible for the variation in the amount of sunlight received by different parts of
+the Earth, and therefore for the seasons.
+
+During the summer solstice, the North Pole is tilted towards the sun and receive
+s the most sunlight of any point on Earth. The sun is directly overhead at noon
+at the Tropic of Cancer, which is located at 23.5 degrees north latitude. The da
+ys are longest and the nights are shortest at this time, and the sun rises and s
+ets in a northerly direction.
+
+Conversely, during the winter solstice, the South Pole is tilted away from the s
+un and receives the least sunlight of any point on Earth. The sun is directly ov
+erhead at noon at the Tropic of Capricorn, which is located at 23.5 degrees sout
+h latitude. The days are shortest and the nights are longest at this time, and t
+he sun rises and sets in a southerly direction.
+
+The tilt of the Earth's axis also causes the length of day and night to vary thr
+oughout the year at different latitudes. At the equator, the length of day and n
+ight is almost exactly 12 hours all year round, because the sun is directly over
+head at noon. As you move towards the poles, the length of day and night becomes
+ longer in the summer and shorter in the winter. At the poles, the sun does not
+set at all during the summer solstice, and does not rise at all during the winte
+r solstice
+total time: 67.29s for 396 tokens, tok/s: 5.88
+Press any key to continue . . .

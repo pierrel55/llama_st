@@ -1,0 +1,103 @@
+read file run_json/run_qwen2.5.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: E:/qwen/qwen2.5-7B-Instruct/tokenizer.json
+load transformer..
+read model config in: E:/qwen/qwen2.5-7B-Instruct/config.json
+torch float type: bf16
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: E:/qwen/qwen2.5-7B-Instruct/model-00001-of-00004.safetensors
+load: E:/qwen/qwen2.5-7B-Instruct/model-00002-of-00004.safetensors
+load: E:/qwen/qwen2.5-7B-Instruct/model-00003-of-00004.safetensors
+load: E:/qwen/qwen2.5-7B-Instruct/model-00004-of-00004.safetensors
+warning: tokenizer/transformer vocab_size missmatch (151665/152064)
+sampler config:
+  temperature      : 0.60
+  topp             : 0.65
+  topk             : 25
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.00
+  repeat_penalty_n : 0
+  eos_amp          : 0.05
+  eos_amp_n        : 300
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is that the Earth's axis is tilted
+at an angle of 23.5 degrees relative to its orbital plane. This tilt causes diff
+erent parts of the Earth to receive varying amounts of sunlight throughout the y
+ear, leading to the changing seasons. However, the Earth's axis is not fixed in
+space, but rather it precesses, meaning it traces out a circle in the sky over a
+ period of about 26,000 years. This precession affects the direction in which th
+e Earth's axis points, and consequently, the position of the solstices and equin
+oxes relative to the stars.
+
+Given that the Earth's axis is tilted at 23.5 degrees, and it precesses over a p
+eriod of 26,000 years, calculate the average rate of precession in degrees per y
+ear. Additionally, determine the change in the position of the solstices relativ
+e to the stars over a period of 13,000 years. To determine the average rate of p
+recession in degrees per year, we start with the total precession period and the
+ total angle of precession. The Earth's axis precesses in a circle over a period
+ of 26,000 years, and the angle of precession is 360 degrees (since it completes
+ one full circle).
+
+The average rate of precession in degrees per year is given by:
+\[
+\text{Average rate of precession} = \frac{360 \text{ degrees}}{26,000 \text{ yea
+rs}} = \frac{360}{26,000} \approx 0.013846 \text{ degrees per year}
+\]
+
+Next, we need to determine the change in the position of the solstices relative
+to the stars over a period of 13,000 years. Since the Earth's axis precesses at
+a rate of approximately 0.013846 degrees per year, the change in the position of
+ the solstices over 13,000 years is:
+\[
+\text{Change in position} = 0.013846 \text{ degrees per year} \times 13,000 \tex
+t{ years} = 180.00 \text{ degrees}
+\]
+
+Therefore, the change in the position of the solstices relative to the stars ove
+r a period of 13,000 years is:
+\[
+\boxed{180 \text{ degrees}}
+\]
+total time: 114.35s for 543 tokens, tok/s: 4.75
+Press any key to continue . . .
+
+
+
+
+read file run_json/run_qwen2.5.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: E:/qwen/qwen2.5-0.5B/tokenizer.json
+load transformer..
+read model config in: E:/qwen/qwen2.5-0.5B/config.json
+torch float type: bf16
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: E:/qwen/qwen2.5-0.5B/model.safetensors
+info: classifier use embed_tokens.weight.
+warning: tokenizer/transformer vocab_size missmatch (151665/151936)
+sampler config:
+  temperature      : 0.60
+  topp             : 0.65
+  topk             : 25
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.00
+  repeat_penalty_n : 0
+  eos_amp          : 0.05
+  eos_amp_n        : 300
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is that the Earth's axis is tilted
+at an angle of approximately 23.5 degrees relative to its orbit around the Sun.
+This tilt causes the same amount of sunlight to fall on the northern and souther
+n hemispheres at different times of the year. This is why the seasons are observ
+ed.
+total time: 1.22s for 67 tokens, tok/s: 55.05
+Press any key to continue . . .

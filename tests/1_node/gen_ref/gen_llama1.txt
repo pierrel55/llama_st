@@ -1,0 +1,41 @@
+read file run_json/run_llama1.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: D:/llama1_st/7b/tokenizer.json
+load transformer..
+read model config in: D:/llama1_st/7b/config.json
+n_kv_heads undefined, assumed = n_heads (32)
+rope_theta undefined, expect rotary_emb.inv_freq contained in .safetensors
+torch float type: fp16
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: D:/llama1_st/7b/model-00001-of-00002.safetensors
+load: D:/llama1_st/7b/model-00002-of-00002.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.75
+  topk             : 25
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 2048 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is a bit more complicated than the
+simple explanation that the Earth is tilted. It's actually a combination of the
+Earth's tilt and its orbit around the Sun.
+The Earth's axis is tilted at an angle of 23.5 degrees to the plane of its orbit
+ around the Sun. This means that the northern hemisphere is tilted toward the Su
+n in summer and away from the Sun in winter. The southern hemisphere is tilted a
+way from the Sun in summer and toward the Sun in winter.
+The Earth's orbit around the Sun is not a perfect circle. Instead, it's an ellip
+se, or a stretched-out circle. The Sun is not at the center of the ellipse. It's
+ at one of the foci, or the two points where the ellipse is widest.
+The Earth is closer to the Sun in January than in July. The distance between the
+ Earth and the Sun varies from about 91 million miles in January to about 94 mil
+lion miles in July.
+total time: 45.83s for 231 tokens, tok/s: 5.04
+Press any key to continue . . .

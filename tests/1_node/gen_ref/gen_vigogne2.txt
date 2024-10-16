@@ -1,0 +1,95 @@
+read file run_json/run_vigogne2.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: E:/vigogne/vigogne-2-13b-instruct/tokenizer.json
+load transformer..
+read model config in: E:/vigogne/vigogne-2-13b-instruct/config.json
+rope_theta undefined, expect rotary_emb.inv_freq contained in .safetensors
+torch float type: fp16
+rope_theta user set to 10000.00
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: E:/vigogne/vigogne-2-13b-instruct/model-00001-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00002-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00003-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00004-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00005-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00006-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00007-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00008-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00009-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00010-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00011-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00012-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00013-of-00014.safetensors
+load: E:/vigogne/vigogne-2-13b-instruct/model-00014-of-00014.safetensors
+sampler config:
+  temperature      : 0.85
+  topp             : 0.70
+  topk             : 25
+  topp_minp        : 0.05
+  topp_eos         : false
+  repeat_penalty   : 0.00
+  repeat_penalty_n : 50
+  eos_amp          : 0.00
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 4096 tokens..
+- Press 'esc' key to break generation.
+L'explication de l'existence de saisons est une question qui a fasciné les philo
+sophes depuis l'Antiquité. Le terme de « saison » vient du latin « seasone » qui
+ signifie « saison de la vie ».
+
+Pour les articles homonymes, voir Saison (homonymie).
+
+## Explications scientifiques
+
+La cause principale de l'alternance des saisons est l'inclinaison de l'axe de ro
+tation de la Terre par rapport au plan de son orbite autour du Soleil. Cette inc
+linaison, qui est d'environ 23,5 degrés, entraîne des changements dans la quanti
+té de lumière directe et indirecte reçue par les différentes parties de la Terre
+ au cours de l'année.
+
+Dans les régions équatoriales, la quantité de lumière reçue reste relativement c
+onstante tout au long de l'année, car l'axe de rotation de la Terre est toujours
+ parallèle à la direction du Soleil. En revanche, dans les régions polaires, l'a
+xe de rotation de la Terre est perpendiculaire à la direction du Soleil pendant
+une partie de l'année, ce qui entraîne des journées plus courtes et des nuits pl
+us longues.
+
+Ces changements de lumière ont des effets sur la température, les précipitations
+ et la végétation de différentes régions de la Terre, ce qui entraîne des différ
+ences de température et de précipitations entre les saisons.
+
+## Explications culturelles
+
+Dans de nombreuses cultures, les saisons sont associées à des célébrations et de
+s rituels liés à la croissance et à la récolte des cultures, à la chasse et à la
+ pêche, ainsi qu'à la renaissance naturelle. Les saisons sont également souvent
+associées à des symboles et des mythes liés à la vie et à la mort, au cycle de l
+a nature et à la cosmologie.
+
+Dans la culture occidentale, les quatre saisons sont généralement associées aux
+éléments classiques de la philosophie antique : le feu pour le printemps, l'air
+pour l'été, l'eau pour l'automne et la terre pour l'hiver.
+
+## Voir aussi
+
+### Articles connexes
+
+* Équinoxe
+* Solstice
+* Météo
+* Température
+* Précipitations
+* Végétation
+* Agriculture
+* Chasse
+* Pêche
+* Rituel
+* Mythologie
+* Philosophie
+
+*  Portail de la météorologie
+total time: 235.59s for 605 tokens, tok/s: 2.57
+Press any key to continue . . .

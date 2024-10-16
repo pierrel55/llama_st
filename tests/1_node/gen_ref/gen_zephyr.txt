@@ -1,0 +1,55 @@
+read file run_json/run_zephyr.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: E:/zephyr/zephyr-7b-beta/tokenizer.json
+load transformer..
+read model config in: E:/zephyr/zephyr-7b-beta/config.json
+torch float type: bf16
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: E:/zephyr/zephyr-7b-beta/model-00001-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00002-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00003-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00004-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00005-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00006-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00007-of-00008.safetensors
+load: E:/zephyr/zephyr-7b-beta/model-00008-of-00008.safetensors
+sampler config:
+  temperature      : 0.70
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 32768 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is based on the Earth's tilt. The E
+arth is tilted at an angle of 23.5 degrees from its axis of rotation. This tilt
+causes the Earth's hemispheres to receive different amounts of solar radiation a
+t different times of the year.
+
+In the Northern Hemisphere, during the summer months, the tilt causes the sun's
+rays to hit the Earth at a more direct angle, which results in longer days and m
+ore sunlight. This extra sunlight causes the temperature to rise, resulting in w
+armer weather and the growth of vegetation.
+
+In the winter months, the tilt causes the sun's rays to hit the Earth at a less
+direct angle, which results in shorter days and less sunlight. This lack of sunl
+ight causes the temperature to drop, resulting in colder weather and the death o
+f vegetation.
+
+In the Southern Hemisphere, the opposite is true. During the summer months, the
+sun's rays hit the Earth at a less direct angle, resulting in shorter days and l
+ess sunlight. This lack of sunlight causes the temperature to drop, resulting in
+ colder weather and the death of vegetation.
+
+In the winter months, the sun's rays hit the Earth at a more direct angle, resul
+ting in longer days and more sunlight. This extra sunlight causes the temperatur
+e to rise, resulting in warmer weather and the growth
+total time: 61.60s for 294 tokens, tok/s: 4.77
+Press any key to continue . . .

@@ -1,0 +1,47 @@
+read file run_json/run_llama2.json
+CPU flags: f16c:1 fma3:1, sse4.2:1 avx:1 avx2:1
+conv/matmul AVX2 checks done.
+load tokenizer: E:/llama2/llama2-7b-chat-hf/tokenizer.json
+load transformer..
+read model config in: E:/llama2/llama2-7b-chat-hf/config.json
+rope_theta undefined, expect rotary_emb.inv_freq contained in .safetensors
+torch float type: fp16
+model weights converted to float12.
+numa node(s): 1, mp node: 0, num logical/physical procs.: 14/14 (HT off)
+processor(s) core(s) used: 12 in 1 node(s).
+load: E:/llama2/llama2-7b-chat-hf/model-00001-of-00002.safetensors
+load: E:/llama2/llama2-7b-chat-hf/model-00002-of-00002.safetensors
+sampler config:
+  temperature      : 0.90
+  topp             : 0.80
+  topk             : 40
+  topp_minp        : 0.05
+  topp_eos         : true
+  repeat_penalty   : 0.05
+  repeat_penalty_n : 50
+  eos_amp          : 0.50
+  eos_amp_n        : 150
+  rand seed        : 1234
+Generate: max 4096 tokens..
+- Press 'esc' key to break generation.
+The explanation for the existence of seasons is due to the tilt of the Earth's a
+xis and its orbit around the sun.
+
+The Earth's axis is tilted at an angle of approximately 23.5 degrees relative to
+ the plane of its orbit around the sun. This means that, as the Earth orbits the
+ sun, different parts of the planet are tilted towards or away from the sun, res
+ulting in changes in the amount of sunlight that reaches the Earth's surface.
+
+During the summer months in the Northern Hemisphere, the Earth is tilted towards
+ the sun, resulting in longer days and more direct sunlight reaching the surface
+. This leads to warmer temperatures and longer days.
+
+In contrast, during the winter months in the Northern Hemisphere, the Earth is t
+ilted away from the sun, resulting in shorter days and less direct sunlight reac
+hing the surface. This leads to colder temperatures and shorter days.
+
+The same process occurs in the Southern Hemisphere, but with the opposite season
+s. When it is summer in the Northern Hemisphere, it is winter in the Southern He
+misphere, and vice versa.
+total time: 40.12s for 249 tokens, tok/s: 6.21
+Press any key to continue . . .

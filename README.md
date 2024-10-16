@@ -193,5 +193,3 @@ This menu allows to:
 - Porting to Linux.
 - Checking all user/system templates in chat.c
 - Evaluate perplexity for F12/F8 format.
- 
-Licence: MIT

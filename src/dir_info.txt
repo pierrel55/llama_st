@@ -1,0 +1,20 @@
+directory matmul
+contain:
+ - simd optimized matmul/float conversion code. interface matmul.h
+ - simd optimized code for transformer self-attention (tr_opt_simd.c)
+ 
+directory model
+contain:
+  - tokenizer/transformer/sampler code
+ 
+directory model/load
+contain:
+   - json parser
+   - tokenizer/transformer loader
+   
+directory vs_inc
+Visual studio 2012 express was used to build the project, but stdbool.h and stdint.h are not defined as standard headers with this compiler, so a minimal definition is done here.
+It is not required for GCC build.
+   
+directory util
+contain various utils non-llm specific code

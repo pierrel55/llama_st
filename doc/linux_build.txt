@@ -1,0 +1,6 @@
+Linux build require a linux port for sources:
+  - term_utf8_w.c
+  - numa_w.c
+  - time_ev.c
+
+Other sources should build without changes for x86 64 arch.

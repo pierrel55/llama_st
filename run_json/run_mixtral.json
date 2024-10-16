@@ -1,0 +1,132 @@
+﻿// llm run parameters. note: this file must be saved in utf-8 format
+{
+// ------------------------------------
+// model identifier
+
+"model_ident": "mixtral",     // model type for model specificities, refer to model.c for list
+
+// ------------------------------------
+// model load
+
+"model_num_safetensors": 19,                            // count of .safetensors files
+// "model_path": "E:/mixtral/Mixtral-8x7B-Instruct-v0.1",  // path to .safetensors, config.json
+"model_path": "D:/mixtral/Mixtral-8x7B-Instruct-v0.1",  // path to .safetensors, config.json
+
+// name of tokenizer
+"tokenizer_name": "",        // if empty, model_path/tokenizer.json is used
+
+// ------------------------------------
+// transformer parameters
+
+// rope value
+"rope_set": 0,               // 0:use config.json or .safetensors data, >0:user value ex:10000.0 (llama2 value)
+
+// ------------------------------------
+// sampler parameters
+
+"temperature": 0.7,          // 0.0 to 2.0: 0.0:greedy decoding 2.0:maximum creativity (1.0 = disable)
+"topp": 0.80,                // 0.01 to 0.99: max probability sum of top tokens
+"topk": 40,                  // (integer) limit size of top tokens list 5..200 (0 = disable)
+"topp_minp": 0.05,           // 0.0 to 1.0: (experimental) !=0: min token probability required to continue generate if EOS contained in topp list
+"topp_eos": true,            // true: limit topp list size to token with probability >= EOS
+"repeat_penalty": 0.05,      // 0.0..2.0 repeat penalty (0.0 = disable)
+"repeat_penalty_n": 50,      // (integer) count of last generated tokens used to apply repeat penalty (0 = disable, min 10)
+"eos_amp": 0.0,              // 0.0 to 2.0 amplify eos probability when more than eos_inc_n tokens generated. (0 = disable)
+"eos_amp_n": 150,            // (integer) count of tokens generated before starting eos_amp influence (0 = disable, min 10)
+"rand_seed": 1234,           // (integer) random seed
+
+// (optional) if ch_restrict defined, sample only tokens that contain ascii chars and sample_restrict chars.
+// "ch_restrict": "ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜ¢£¥₧ƒáíóúñÑªº¿⌐¬½¼¡«»αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²",
+
+"test_nan_logits": false,    // test for NAN at sampling in logits (debug, problem detect)
+
+// ------------------------------------
+
+// model load data conversion
+"cvt_sf16": false,           // convert model to sf16 (require f16 model)
+"cvt_f12": true,            // convert model to float12
+"cvt_f8": false,             // convert model to float8  (required on 64Gb mem)
+
+// hardware parameters
+"num_procs": 22,             // <=0: max auto detected, >0: user value. note: max procs do not always produce best performances
+"numa_nodes": -1,            // <=0: all auto detected. >0: max nodes to use
+"simd_mode": -1,             // <=0: max auto detect, 0:fpu 1:sse 2:avx, 3:avx2
+
+// run parameters
+"run_mode": 0,               // 0: generate, 1:chat
+"gen_run_steps": -1,         // generate mode run steps: <=0: model max context size, >0:user value
+"token_eos_str": "</s>",     // end of string token (assistant reply end)
+"token_eot_str": "</s>",     // end of text token (dialog/generate end)
+
+// tokens display options in chat or generate mode
+"tok_disp_raw": false,       // true: display special tokens (LF,<s>, etc..)
+"tok_disp_split": false,     // true: display tokens separated with ','
+"tok_disp_prob": false,      // true: display sampling info (add [score + n topp] + ',')
+
+// ------------------------------------
+// generate mode prompt init
+
+"gen_mode_prompt": "<s> The explanation for the existence of seasons is",
+
+// ------------------------------------
+// chat mode config
+
+// dialog colors (r.g.b format)
+"chat_use_colors": true,               // use colors for chat
+"chat_col_msg":       "250.250.250",   // messages text color
+"chat_col_user":      "180.255.180",   // user text color (keyboard input)
+"chat_col_assistant": "180.180.255",   // assistant answer text color
+
+// forward: define what is displayed when forward user prompt
+"fwd_disp_mode": 0,                    // 0: display nothing, 1:tokens list (test usage)
+
+// ------------------------------------
+// promp mode: define the method to generate the prompt format
+// 0: use model_ident value to select templates defined in chat.c
+// 1: user defined templates cm1_xxx..
+// 2: use generate mode (llama1), should work with any models (chat/non-chat).
+"chat_prompt_mode": 0,
+
+// prompt names displayed for assistant and user in mode 0 and 1 (defined by sys_prompt in mode 2)
+"chat_assistant_name": "Mixtral:",
+"chat_user_name": "User:",
+
+// ------------------------------------
+// chat_prompt_mode=0 parameters
+
+"cm0_sys_prompt": "",                   // todo, no sys prompt with instruct model ?
+"cm0_user_prompt": "What is a pointer in C language ?",
+
+// ------------------------------------
+// chat_prompt_mode=1 parameters (user defined template)
+
+// https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1#instruction-format
+"cm1_sys_template": "",                              // %s replace cm1_sys_prompt
+"cm1_user_first_template": "<s> [INST] %s [/INST]",  // first user template following sys prompt
+"cm1_user_template": "[INST] %s [/INST]",            // %s replace cm1_user_prompt
+"cm1_end_template": "</s>\n",                        // end of assistant reply template
+
+"cm1_sys_prompt": "",
+"cm1_user_prompt": "What is sizeof(int) value in C ?",
+
+// ------------------------------------
+// init prompt mode 2 (generate mode)
+// for mode 2 correct work:
+//  - ensure names coherence in user_template/sys_prompt/user_name_sw
+//  - no space at end of cm2_user_name_sw
+//  - terminate sys prompt to user name
+
+// templates for mode 2
+"cm2_sys_template": "<s> %s",      // %s replaced by cm2_sys_prompt, <s> = emit bos
+"cm2_user_template": " %s\nBob:",  // %s = cm2_user_prompt at init and next using keyboard input string
+"cm2_user_name_sw": "\nUser:",     // user name switch (end template)
+
+// llama1 generate type chat example
+"cm2_sys_prompt":
+     "Transcript of a dialog, where the User interacts with an assistant named Bob. "
+    +"Bob is good at computer programming and never fails to respond to user requests accurately.\n\n"
+    +"User: Hello Bob.\n"
+    +"Bob: Hello. How may I help you today?\n"
+    +"User:",
+"cm2_user_prompt": "What is sizeof(int) value in C ?"
+}

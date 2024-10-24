@@ -2,7 +2,7 @@
 
 This program has the function of inferring LLMs based on the llama transformer with direct load of models from .safetensors files.
 
-It was started on the basis of [llama2.c](https://github.com/karpathy/llama2.c) by [karpathy](https://github.com/karpathy) and is also entirely in C.
+It was started on the basis of [llama2.c](https://github.com/karpathy/llama2.c) and is also entirely in C.
 It does not require any external libraries and is intended for inference using only the CPU.
 
 Support for the .safetensors format allows loading LLM models without requiring the creation of an intermediate format file, saving significant disk space.
@@ -186,7 +186,7 @@ This menu allows to:
   <img src="doc/chat_ll2.jpg">
 </p>
 
-**Todo**
+**Todo:**
 - Testing on more recent CPUs.
 - Test on 4/8 node system.
 - Test on recent VS version.
